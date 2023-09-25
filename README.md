@@ -6,8 +6,6 @@
 ![](https://img.shields.io/github/actions/workflow/status/green-api/whatsapp-api-webhook-server-python/python-app.yml)
 ![](https://img.shields.io/pypi/dm/whatsapp-api-webhook-server-python)
 
-- [Документация на русском языке](https://github.com/green-api/whatsapp-api-webhook-server-python/blob/master/docs/README_RU.md).
-
 whatsapp-api-webhook-server-python is a library for integration with WhatsApp messenger using the API
 service [green-api.com](https://green-api.com/en/). You should get a registration token and an account ID in
 your [personal cabinet](https://console.green-api.com/) to use the library. There is a free developer account tariff.
@@ -79,9 +77,6 @@ Library installation:
 python3 -m pip install whatsapp-api-webhook-server-python
 ```
 
-As an example you can download and run [our script](
-https://github.com/green-api/whatsapp-api-webhook-server-python/blob/master/examples/echo.py
-). The script sends all incoming notifications.
 
 ```shell
 wget https://raw.githubusercontent.com/green-api/whatsapp-api-webhook-server-python/master/examples/echo.py
@@ -183,7 +178,6 @@ Method parameters:
 | typeWebhook     | type of incoming notification |
 | body            | notification body             |
 
-Example: [echo.py](https://github.com/green-api/whatsapp-api-webhook-server-python/blob/master/examples/echo.py).
 
 ## How to reroute incoming notifications to a web server
 
